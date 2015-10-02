@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #eee;
+}
+
+section.container {
+    padding-top: 51px;
+}
+
+.album {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .12);
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #fff;
+    animation: start-animation 2s ease-in-out;
+}
+
+.album-cover-img {
+    max-width: 200px;
+    display: inline-block;
+}
+
+.img-wrapper {
+    display: block;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .album-cover-img {
+        max-width: 100%;
+    }
+}
+
+@keyframes start-animation {
+    0% {
+        opacity: 0;
+        transform: translate(-300px, 0);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0, 0);
+        transform: scale(1);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
