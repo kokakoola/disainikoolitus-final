@@ -1,6 +1,5 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: #eee;
 }
 
 section.container {
@@ -45,23 +44,3 @@ section.container {
         transform: scale(1);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
